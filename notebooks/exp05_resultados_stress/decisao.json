@@ -1,0 +1,67 @@
+{
+  "recomendado": "LR splines",
+  "perfil": "STRESS",
+  "n_folds_externos": 50,
+  "regra": {
+    "rope_ap": 0.005,
+    "tie_max_prob_worse": 0.2,
+    "pesos": {
+      "train_cpu_s": 0.2,
+      "train_ram_mb": 0.15,
+      "latency_ms": 0.25,
+      "model_mb": 0.1,
+      "ece": 0.15,
+      "interpretability": 0.15
+    }
+  },
+  "hiperparametros": {
+    "clf__C": 0.3973573712326872,
+    "pre__n__spl__degree": 3,
+    "pre__n__spl__n_knots": 8
+  },
+  "variaveis": [
+    "Gender",
+    "Senior Citizen",
+    "Partner",
+    "Dependents",
+    "Tenure Months",
+    "Phone Service",
+    "Multiple Lines",
+    "Internet Service",
+    "Online Security",
+    "Online Backup",
+    "Device Protection",
+    "Tech Support",
+    "Streaming TV",
+    "Streaming Movies",
+    "Contract",
+    "Paperless Billing",
+    "Payment Method",
+    "Monthly Charges",
+    "Total Charges"
+  ],
+  "versoes": {
+    "python": "3.12.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "joblib": "1.6.0"
+  },
+  "recursos": {
+    "treino 1 thread: relógio (s)": 0.12447584999608807,
+    "treino 1 thread: CPU-s": 0.109375,
+    "treino 1 thread: pico RAM extra (MB)": 4.849609375,
+    "treino 8 threads: relógio (s)": 3.049641099991277,
+    "treino 8 threads: núcleos efetivos": 0.06019220919668438,
+    "treino 8 threads: pico RAM extra (MB)": 5.19140625,
+    "ram_modelo_carregado_mb": 67.72265625,
+    "lat_p50_ms": 4.88039999618195,
+    "lat_p95_ms": 6.81026500533335,
+    "lat_p99_ms": 7.310907001665325,
+    "linhas_por_s_1000": 123800.68075543793,
+    "RAM extra na predição de 1000 linhas (MB)": 1.5859375,
+    "linhas_por_s_100000": 291780.82590727496,
+    "RAM extra na predição de 100000 linhas (MB)": 98.5625,
+    "tamanho do modelo (MB)": 0.006549835205078125
+  }
+}
